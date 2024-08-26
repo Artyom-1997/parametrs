@@ -1,0 +1,18 @@
+﻿def  print_params ( a  =  2 , b  =  'строка' , c  =  True ):
+    print ( a , b , c )
+
+print_params ( 5 , 'ddder' )
+print_params ( 7 , Нет , Ложь )
+параметры_печати ( 26 )
+параметры_печати ()
+параметры_печати ( б = 25 )
+print ( 'Функция print_params(b=25) работает' )
+параметры_печати ( c  = [ 1 , 2 , 3 ])
+print ( 'Функция print_params(c = [1,2,3]) работает' )
+values_list  = [ 125 , Нет , 'Текст' ]
+values_dict  = { 'a' : 1256.2547 , 'b' : "Жара" , 'c' : Ложь }
+print_params ( * список_значений )
+print_params ( ** значения_дикт )
+values_list_2  = [ 'Петровка-' , 38 ]
+print_params ( * список_значений_2 , 42 )
+print ( 'Функция print_params(*values_list_2, 42) работает' )
